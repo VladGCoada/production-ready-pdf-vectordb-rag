@@ -23,19 +23,15 @@ A production-ready system that enables intelligent question-answering capabiliti
 
 ### Installation
 
-1. Clone the repository:
-```bash
-git clone https://github.com/doganarif/pdf-gpt-vectordb-qa.git
-cd pdf-gpt-vectordb-qa
-```
 
-2. Create and configure your environment file:
+
+. Create and configure your environment file:
 ```bash
 cp .env.example .env
 # Edit .env with your credentials
 ```
 
-3. Start the services:
+. Start the services:
 ```bash
 docker compose up --build
 ```
@@ -74,10 +70,7 @@ The system consists of several key components:
 Key environment variables:
 
 ```env
-# OpenAI/Azure Configuration
-AZURE_OPENAI_ENDPOINT=your_endpoint
-AZURE_OPENAI_API_KEY=your_key
-AZURE_DEPLOYMENT_NAME=your_deployment
+# OpenAI SECRET KEY 
 
 # Qdrant Configuration
 QDRANT_HOST=qdrant
@@ -141,4 +134,3 @@ For production deployments, consider:
 - All contributors and supporters
 
 ---
-Built with ❤️ by [doganarif](https://github.com/doganarif)
